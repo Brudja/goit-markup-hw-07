@@ -427,17 +427,17 @@ span.logo__black {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.team-social-items:hover .link-social, .team-social-items:focus {
+  fill: var(--secondary-text-color);
+}
+.team-social-items:hover, .team-social-items:focus {
+  background-color: var(--accent-text-color);
+}
 
 .team-social-items .link-social {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.team-social-items .link-social:hover .link-social, .team-social-items .link-social:focus {
-  fill: var(--secondary-text-color);
-}
-.team-social-items .link-social:hover, .team-social-items .link-social:focus {
-  background-color: var(--accent-text-color);
 }
 
 /*section-peopl*/
