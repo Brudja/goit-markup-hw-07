@@ -128,6 +128,9 @@ body {
 
 .header {
   border-bottom: 1px solid #ECECEC;
+}
+
+.menu {
   display: flex;
   align-items: center;
 }
