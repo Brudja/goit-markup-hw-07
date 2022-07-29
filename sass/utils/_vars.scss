@@ -1,0 +1,35 @@
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+
+    font-family: var(--primary-font);
+    letter-spacing: 0.03em;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-Right: auto;
+}
+
+/* .container-hero{
+    width: 1600px;
+    margin-left: auto;
+    margin-Right: auto;
+} */
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+.section .text {
+    color: var(--primary-text-color);
+}
+
+.section-title {
+    color: var(--title-text-color);
+    margin-top: 0;
+}
